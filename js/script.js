@@ -51,4 +51,3 @@ for (let i = 0; i < teamMembers.length; i++) {
 
 }
 console.log(listHTML);
-listElement.innerHTML = listHTML;
