@@ -45,12 +45,7 @@ let listHTML = "";
 for (let i = 0; i < teamMembers.length; i++) {
   const teamMember = teamMembers[i];
 
-  listHTML += `<div class="card" style="width: 18rem;">
-            <img src="./img/male1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">${teamMember.name}</h5>
-                <p class="card-text">${teamMember.role}</p>
-            </div>`;
+  listHTML += "";
 
   console.log(i, "Added", listHTML)
 
